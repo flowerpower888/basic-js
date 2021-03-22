@@ -6,7 +6,7 @@ module.exports = function repeater(str, options) {
     separator: options.separator || "+",
     addition: options.addition !== undefined ? String(options.addition) : "",
     additionRepeatTimes: options.additionRepeatTimes || 1,
-    additionSeparator: options.additionSeparator || ""
+    additionSeparator: options.additionSeparator || "|"
   }
 
   return (String(str)
